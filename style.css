@@ -670,18 +670,57 @@ footer {
     width: 100%;
   }
 }
-.cta-btn:hover {
-  background: #2563eb;
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 15px 35px rgba(59, 130, 246, 0.6);
+/* SECTION BACKGROUND */
+.about-cta {
+  padding: 80px 20px;
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .cta-container {
-    padding: 40px 20px;
-  }
+/* CONTAINER */
+.cta-container {
+  text-align: center;
+  max-width: 700px;
+}
 
+/* HEADING */
+.cta-container h2 {
+  font-size: 2.4rem;
+  font-family: 'League Spartan', sans-serif;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+/* TEXT */
+.cta-container p {
+  font-size: 1.05rem;
+  color: #cbd5f5;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* BUTTON */
+.cta-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background: #3b82f6;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.cta-btn:hover {
+  background: #2563eb;
+  transform: translateY(-3px);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
   .cta-container h2 {
     font-size: 2rem;
   }
